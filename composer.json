@@ -1,0 +1,36 @@
+{
+  "name": "barisaarslan/yii2-salgin",
+  "description": "Salgin Module",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "barisaarslan",
+      "email": "180202112@kocaeli.edu.tr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": "~2.0.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.*.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "barisaarslan\\salgin\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "barisaarslan\\salgin\\tests\\": "tests"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
